@@ -24,7 +24,7 @@ if __name__ == "__main__":
     print("[orange3]You wake up in a dark forest. You can go left or right.[/orange3]")
     while True:
         console = Console()
-        choice = console.input("[purple]Which direction do you choose? ([red]left[/red]/[green]right[/green]/[blue]exit[/blue]): [/purple]")
+        choice = console.input("[purple][bold]Which direction do you choose?[/bold] ([red]left[/red]/[green]right[/green]/[blue]exit[/blue]): [/purple]")
         choice = choice.strip().lower()
         if choice == 'exit':
             break
